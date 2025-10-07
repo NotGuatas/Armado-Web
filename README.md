@@ -1,4 +1,4 @@
-# Proyecto: Página de Login Responsive (AdminExpress)
+##  Proyecto: Página de Login Responsive (AdminExpress)
 
 Este proyecto consiste en la **replicación de un diseño de página de login moderna y adaptativa**, usando **HTML, CSS, Flexbox, Grid y Media Queries**.  
 El objetivo es demostrar el uso de estructuras responsive que se ajusten correctamente a diferentes tamaños de pantalla (escritorio, tablet y móvil).
