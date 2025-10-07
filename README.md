@@ -22,4 +22,3 @@ index.html # Estructura principal del login
 
 ├── styles.css # Estilos y media queries
 
-└── README.md # Descripción del proyecto
