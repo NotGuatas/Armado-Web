@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AdminExpress – Login</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="auth">
+    <section class="auth__brand">
+      <div class="brand__content">
+        <h1 class="brand__title">AdminExpress</h1>
+        <p class="brand__subtitle">Accede a tu panel de control</p>
+      </div>
+    </section>
+
+    <section class="auth__panel">
+      <div class="card">
+        <header class="card__header">
+          <h2>Let’s Sign In <span aria-hidden="true">👋</span></h2>
+          <p>Ingresa tus credenciales para continuar.</p>
+        </header>
+
+        <form class="form" action="#" method="post">
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email"
+                   placeholder="you@example.com" required />
+          </div>
+
+          <div class="field">
+            <div class="field__row">
+              <label for="password">Password</label>
+              <a class="link--small" href="#">Forgot password?</a>
+            </div>
+            <input id="password" name="password" type="password"
+                   placeholder="••••••••" required />
+          </div>
+
+          <div class="controls">
+            <label class="check">
+              <input type="checkbox" name="remember" />
+              <span>Remember me</span>
+            </label>
+            <button class="btn" type="submit">Sign in</button>
+          </div>
+        </form>
+
+        <footer class="card__footer">
+          <p>Don’t have an account? <a href="#">Sign up</a></p>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
