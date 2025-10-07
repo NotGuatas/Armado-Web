@@ -17,8 +17,8 @@ El objetivo es demostrar el uso de estructuras responsive que se ajusten correct
 ## Estructura del proyecto
  Armado-Web
 
-
-├── index.html # Estructura principal del login
+├── 
+index.html # Estructura principal del login
 
 ├── styles.css # Estilos y media queries
 
