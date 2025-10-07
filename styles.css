@@ -1,4 +1,4 @@
-/* ========= Variables y base ========= */
+
 :root{
   --brand: #0e63ff;
   --brand-dark:#0546c8;
@@ -20,14 +20,13 @@ body{
   background:var(--bg);
 }
 
-/* ========= GRID principal (2 columnas) ========= */
+
 .auth{
   display:grid;
-  grid-template-columns: 1.15fr 1fr; /* izquierda + derecha */
+  grid-template-columns: 1.15fr 1fr; 
   min-height:100dvh;
 }
 
-/* Panel de marca (izquierda) */
 .auth__brand{
   background:linear-gradient(135deg,var(--brand),var(--brand-dark));
   color:#fff;
@@ -43,9 +42,8 @@ body{
 }
 .brand__subtitle{ margin:0; opacity:.9; }
 
-/* Panel del formulario (derecha) */
 .auth__panel{
-  display:flex;                /* FLEX para centrar la tarjeta */
+  display:flex;                
   align-items:center;
   justify-content:center;
   padding:clamp(24px,5vw,48px);
@@ -57,7 +55,7 @@ body{
   border-radius:var(--radius);
   box-shadow:var(--shadow);
   padding:28px;
-  display:flex;                /* FLEX para apilar elementos internos */
+  display:flex;                
   flex-direction:column;
   gap:18px;
 }
@@ -65,12 +63,12 @@ body{
 .card__header h2{ margin:0 0 6px; font-size:24px; }
 .card__header p{ margin:0; color:var(--muted); font-size:14px; }
 
-/* ========= Formulario (Flex) ========= */
+
 .form{ display:flex; flex-direction:column; gap:14px; }
 
 .field label{ display:block; font-size:14px; margin-bottom:6px; }
 .field__row{
-  display:flex; /* etiqueta + link Forgot alineados a extremos */
+  display:flex;
   align-items:baseline;
   justify-content:space-between;
   gap:16px;
@@ -91,7 +89,7 @@ body{
 }
 
 .controls{
-  display:flex;                /* checkbox a la izquierda, botón a la derecha */
+  display:flex;               
   align-items:center;
   justify-content:space-between;
   margin-top:4px;
@@ -112,9 +110,9 @@ body{
 .card__footer a, .link--small{ color:var(--brand); text-decoration:none; }
 .card__footer a:hover, .link--small:hover{ text-decoration:underline; }
 
-/* ========= Media Queries (responsive) ========= */
+
 @media (max-width: 960px){
-  .auth{ grid-template-columns: 1fr; }  /* 1 sola columna */
+  .auth{ grid-template-columns: 1fr; }  
   .auth__brand{ min-height:36vh; place-items:end center; }
   .brand__content{ text-align:center; }
 }
